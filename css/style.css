@@ -1,0 +1,115 @@
+body {
+    background-color: #f5cb8d;
+    color: rgb(155, 43, 155);
+    padding: 0;
+    margin: 0%;
+}
+h1 {
+    background: rgb(155, 43, 155);
+    color: white;
+
+    text-align: center;
+    
+    
+}
+
+
+h3 {
+    background: rgb(155, 43, 155);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+.rodape{
+    background: rgb(155, 43, 155);
+    color: white;
+    height: 170px;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+ 
+footer{
+    padding: 0;
+    margin: 0%;
+}
+.copyrigth{
+
+    margin-top: 16px;
+}
+
+
+header{
+    background-color:  rgb(155, 43, 155);
+   
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:#f8bc62
+}
+
+.produtos{
+    width: 950px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid rgb(155, 43, 155);
+    border-radius: 8px;
+}
+
+.produtos li:hover{
+    border-color: rgb(240, 159, 67);
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
