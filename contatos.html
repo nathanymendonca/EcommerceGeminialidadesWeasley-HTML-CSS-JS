@@ -17,7 +17,42 @@
         </header>
 
     </head>
+<main>
+    <!-- ESTRUTURA FORMULÁRIO - INÍCIO -->
+    <form>
+        <label for="nomesobrenome">Nome e e sobrenome</label> 
+        <input type="text" id="nomesobrenome" class="input-padrao">
 
+        <label for="email">Email</label>
+        <input type="text" id="email" class="input-padrao">
+
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" class="input-padrao">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+
+        <div>
+            <p>Como prefere o nosso contato</p>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+            
+
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+            
+
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+            
+
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+            <input style="border-radius: 8px;color: white; height: 30px; background-color: rgb(12, 243, 12);" type="submit" value="Enviar formulário">
+
+            
+        </div>
+    </form>
+    <!-- ESTRUTURA FORMULÁRIO - FIM -->
+</main>
     <body>
  <br>
         <div class="rodape"><b>Todos os Direito reservados</b></div>
