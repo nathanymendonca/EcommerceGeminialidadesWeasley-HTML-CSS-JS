@@ -4,7 +4,7 @@
     <head>
         <link rel="stylesheet" href="./css/style.css">
         <header>
-            <img style="border-radius: 20px;padding-bottom: 10px; padding-left: 10px; padding-top: 10px;" src="./img/home2.jpg.crdownload" height="120px" width="100px">
+            <img style="border-radius: 20px;padding-bottom: 10px; padding-left: 10px; padding-top: 10px;" src="./img/home2.jpg.crdownload" alt="logo da loja" height="120px" width="100px">
             
             <nav style="position: absolute; top: 5%; left: 700px;">
             <ul>
@@ -21,16 +21,16 @@
     <!-- ESTRUTURA FORMULÁRIO - INÍCIO -->
     <form>
         <label for="nomesobrenome">Nome e e sobrenome</label> 
-        <input type="text" id="nomesobrenome" class="input-padrao">
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
 
         <label for="email">Email</label>
-        <input type="text" id="email" class="input-padrao">
+        <input type="text" id="email" class="input-padrao" required placeholder="seuemail@gominio.com">
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" class="input-padrao">
+        <input type="text" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
 
         <label for="mensagem">Mensagem</label>
-        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
 
         <div>
@@ -41,14 +41,22 @@
             <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
             
 
-            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
             
 
-            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
             <input style="border-radius: 8px;color: white; height: 30px; background-color: rgb(12, 243, 12);" type="submit" value="Enviar formulário">
+               
+        </div>
 
-            
+        <div>
+            <p style="padding-top: 20px;">Qual horário você prefere ser atendido?</p>
+            <select style=" width: 73px; height:25px; border-radius: 8px; background-color: rgb(155, 43, 155); color: white;">
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
         </div>
     </form>
     <!-- ESTRUTURA FORMULÁRIO - FIM -->

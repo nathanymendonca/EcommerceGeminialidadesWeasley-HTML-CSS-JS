@@ -115,6 +115,7 @@ form label, form p{
     display: block;
     font-size: 20px;
     margin:  0 0 10px;
+    color: rgb(155, 43, 155);
 }
 
 .input-padrao{
@@ -131,6 +132,8 @@ form label, form p{
     margin: 20px 0;
     
 }
+
+
 
 
 
