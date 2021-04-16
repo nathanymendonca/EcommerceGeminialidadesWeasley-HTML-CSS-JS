@@ -3,7 +3,11 @@ body {
     color: rgb(155, 43, 155);
     padding: 0;
     margin: 0%;
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 15.5px;
 }
+
+
 h1 {
     background: rgb(155, 43, 155);
     color: white;
@@ -29,6 +33,7 @@ h3 {
     height: 170px;
     font-size: 25px;
     text-align: center;
+    padding-bottom: 10px;
     
     
 }
@@ -40,6 +45,7 @@ footer{
 .copyrigth{
 
     margin-top: 16px;
+    
 }
 
 
@@ -171,6 +177,83 @@ td, th {
 
 
 
+/* início do carousel */
+
+* { margin: 0; padding: 0; }
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+    padding: auto;
+}
+
+.slider img {
+    margin: auto;
+    box-shadow: 8px 8px 10px gray;
+    vertical-align: top;
+    border-radius: 8px;
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+   /* fim do carousel */
+
+
+
+ /* início mapa*/
+
+ .mapa {
+    margin-left: 270px;
+}
+
+  /* fim mapa */
+
+  .video{
+    margin-left: 380px;
+  }  
 
 
 
