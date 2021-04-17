@@ -247,15 +247,34 @@ td, th {
 
  .mapa {
     margin-left: 270px;
+    
 }
 
   /* fim mapa */
 
   .video{
     margin-left: 380px;
+    
   }  
 
+.memorian{
+    padding-left: 440px;
+  background: linear-gradient( rgb(240, 159, 67),rgb(155, 43, 155));
+  ;
+}
 
+@media screen and (max-widht:480px) {
+    .caixa, .principal, .mapa, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+}
 
 
 
